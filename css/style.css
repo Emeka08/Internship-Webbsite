@@ -1,0 +1,194 @@
+/* Google Font STIX Two Text */
+@import url("https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap");
+
+/* Customzed Scroll Bar */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #0f4266;
+  border: 0px none #e3f2fd;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0d6efd;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #0d6efd;
+}
+::-webkit-scrollbar-track {
+  background: #ffffff;
+  border: 0px none #ffffff;
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+  background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+body {
+  font-family: "STIX Two Text", serif;
+}
+.navbar {
+  background-color: #e3f2fd;
+}
+.nav-item a {
+  font-size: 16p;
+  font-weight: 700;
+}
+.hero img {
+  height: 300px;
+}
+.objectives {
+  padding: 16px;
+  background-color: #e3f2fd;
+}
+.objectives h2 {
+  border-bottom: 1px solid #0d6efd;
+}
+.objectives p {
+  padding: 16px 0 3px;
+}
+
+footer {
+  border-top: 1px solid #8b575c;
+  background-color: #e3f2fd;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.vision {
+  background-color: #e3f2fd;
+}
+
+.intern-main,
+.admin-main {
+  height: 80vh;
+}
+
+.table {
+  font-size: 11px;
+}
+
+.tableH,
+.admTableH {
+  height: 350px !important;
+  overflow: auto;
+}
+.admTableH {
+  height: 300px !important;
+}
+
+.errormsg {
+  font-weight: 500;
+  color: red;
+}
+
+header > nav > div {
+  background-color: #e3f2fd;
+}
+
+.shown {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  background-color: #ffffff;
+  width: 100%;
+}
+
+.shown a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+.shown div {
+  padding: 10px 0;
+  border-bottom: 1px solid #e3f2fd;
+}
+
+.shown div:hover {
+  background-color: #e3f2fd;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero {
+    width: 50%;
+    margin: 32px auto;
+  }
+  .hero img {
+    width: 300px;
+    height: 400px;
+  }
+  .aboutus {
+    height: 45vh;
+    font-size: 16px;
+  }
+  .hw-50 {
+    width: 50%;
+  }
+  .hw-70 {
+    width: 70%;
+  }
+  .hw-80 {
+    width: 80%;
+  }
+  .hw-90 {
+    width: 90%;
+  }
+  .abt-hero {
+    width: 60%;
+    margin: auto;
+  }
+  .table {
+    font-size: 16px;
+  }
+  .shown {
+    position: static;
+    background-color: #e3f2fd;
+    width: 100%;
+    display: flex !important;
+    align-items: center;
+  }
+
+  .shown > div > a {
+    font-size: 10px;
+  }
+
+  .shown a {
+    text-decoration: none;
+    padding: 0;
+  }
+
+  .shown div {
+    padding: 0 10px;
+    border-bottom: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .tableH {
+    height: 450px !important;
+  }
+  .admTableH {
+    height: 400px !important;
+  }
+  .shown > div > a {
+    font-size: 14px;
+  }
+  .kill-flex-grow {
+    flex-grow: inherit;
+  }
+}
