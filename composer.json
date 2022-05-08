@@ -1,0 +1,15 @@
+{
+    "name": "user/internship",
+    "description": "An Internship Websie",
+    "autoload": {
+        "psr-4": {
+            "User\\Internship\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Emeka"
+        }
+    ],
+    "require": {}
+}
