@@ -30,7 +30,7 @@ if (isset($_SESSION["username"])) {
 ?>
 
 <main>
-  <div class="my-4 mx-1">
+  <div class="my-4 mx-2">
     <div class="hw-50 pb-1 m-auto">
       <h3>Employer Account</h3>
       <a href="./uploadjobs.php">

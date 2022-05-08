@@ -136,6 +136,9 @@ header > nav > div {
     height: 45vh;
     font-size: 16px;
   }
+  .hw-40 {
+    width: 40%;
+  }
   .hw-50 {
     width: 50%;
   }
@@ -183,7 +186,7 @@ header > nav > div {
     height: 450px !important;
   }
   .admTableH {
-    height: 400px !important;
+    height: 300px !important;
   }
   .shown > div > a {
     font-size: 14px;

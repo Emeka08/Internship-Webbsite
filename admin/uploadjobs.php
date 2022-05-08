@@ -11,7 +11,7 @@ if (isset($_SESSION["username"])) {
 ?>
 
 <main>
-  <div class="admin-main mt-4 mx-1">
+  <div class="admin-main mt-4 mx-2">
     <div class="hw-90 pb-1 m-auto">
       <h3>Internship Jobs</h3>
       <a href="./addnewjob.php">
@@ -52,7 +52,7 @@ if (isset($_SESSION["username"])) {
                     <i class="far fa-edit"></i> Update
                   </a>
                   <!-- Button trigger modal -->
-                  <button type="button" class="btn btn-danger btn-sm text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  <button type="button" class="mt-2 m-lg-0 btn btn-danger btn-sm text-white" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                     <i class="fas fa-trash me-1"></i>Delete
                   </button>
 

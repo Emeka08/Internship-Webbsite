@@ -12,7 +12,7 @@ if (isset($_SESSION["username"])) {
 ?>
 
 <main>
-  <div class="admin-main mt-4 mx-1">
+  <div class="admin-main mt-4 mx-1 mx-2">
     <div class="hw-70 pb-1 m-auto">
       <h3>Administrators Account</h3>
       <a href="./addadmin.php">
@@ -21,13 +21,12 @@ if (isset($_SESSION["username"])) {
         </button>
       </a>
     </div>
-    <div class="admTableH m-auto hw-70 shadow p-3 mb-5 rounded">
+    <div class="admTableH m-auto hw-40 shadow p-3 mb-5 rounded">
       <table class="table table-hover">
         <thead>
           <tr>
             <th scope="col">#</th>
             <th scope="col">Username</th>
-            <th scope="col">Password</th>
             <th scope="col">Name</th>
             <th scope="col">Action</th>
           </tr>
@@ -45,7 +44,6 @@ if (isset($_SESSION["username"])) {
           echo '<th scope="row">' . $i++ . '</th>';
           echo '<td>' . $rows['username'] . '</td>';
           echo '<td>' . $rows['name'] . '</td>';
-          echo '<td>' . $rows['password'] . '</td>';
           echo '<td>
                   <a href="./updateadmin.php?username=' . $rows["username"] . ' &name=' . $rows["name"] . '" class="btn btn-warning btn-sm text-white">
                     <i class="far fa-edit"></i> Update

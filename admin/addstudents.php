@@ -46,7 +46,7 @@ if (isset($_SESSION["username"])) {
 ?>
 
 <main>
-  <div class="my-4 mx-1">
+  <div class="my-4 mx-2">
     <div class="hw-50 pb-1 m-auto">
       <h3>Students Account</h3>
       <a href="./studentsacc.php">

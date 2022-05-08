@@ -24,7 +24,7 @@ if (isset($_SESSION["username"])) {
 ?>
 
 <main>
-    <div class="mt-4 mx-1">
+    <div class="mt-4 mx-2">
         <div class="hw-50 pb-1 m-auto">
             <h3>Internship Jobs</h3>
             <a href="./uploadjobs.php">
