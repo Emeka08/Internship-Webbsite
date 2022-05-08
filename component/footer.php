@@ -1,7 +1,7 @@
 <!-- Add a link to an onlline cv generator -->
 <footer class="p-3">
     <div class="text-center">
-        <a class="text-decoration-none link-primary" href="mailto:aniemenacythia@gmail.com">aniemenacythia@gmail.com</a>
+        <a class="text-decoration-none link-primary" href="mailto:aohaeriemeka10@gmail.com">ohaeriemeka10@gmail.com</a>
     </div>
 </footer>
 <!-- Font Awesome -->
